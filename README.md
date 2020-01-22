@@ -4,10 +4,13 @@ README.md -> Create Date : 01-21-2020
 Project   -> Create Date : 01-08-2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data analysis
 
 ### Description
-Describe what your project is about and what it does
+Project provide a command line interface to user to analyze the bikeshare data for 2 major cities in USA.
+New York
+Wahsington
+Chicago
 
 ### Files used
 Include the files used
