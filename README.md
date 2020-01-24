@@ -4,7 +4,7 @@ README.md -> Create Date : 01-21-2020
 Project   -> Create Date : 01-08-2020
 
 ### Project Title
-**Bikeshare Data analysisi**
+**Bikeshare Data analysis**
 
 ### Description
 Project provide a command line interface to user to analyze the bikeshare data for 2 major cities in USA.
