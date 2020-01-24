@@ -186,6 +186,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
+    """Displays row bikeshare data interactively. """
     current_index=0;
     print(len(df.index))
     display_data = input('\nWould you like to display raw data ? Enter yes or no.\n') 
