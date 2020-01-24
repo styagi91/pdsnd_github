@@ -169,6 +169,7 @@ def user_stats(df):
     # Display counts of gender
     if 'Gender' in df.columns:
         gender_type = df['Gender'].value_counts()
+        df['Gender'].value_counts().plot(kind='bar', x='Gender')
         print(gender_type,"\n")
     else:
         print("No Gender information in this data \n")
