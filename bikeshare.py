@@ -169,6 +169,7 @@ def user_stats(df):
     # Display counts of gender
     if 'Gender' in df.columns:
         gender_type = df['Gender'].value_counts()
+        df['Gender'].value_counts().plot(kind='bar', x='Gender')
         print(gender_type,"\n")
     else:
         print("No Gender information in this data \n")
@@ -188,7 +189,7 @@ def user_stats(df):
 def display_data(df):
     """Displays row bikeshare data interactively. """
     current_index=0;
-    print(len(df.index))
+
     display_data = input('\nWould you like to display raw data ? Enter yes or no.\n') 
     if display_data.lower() == 'yes':
         while True:
