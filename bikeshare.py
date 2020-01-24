@@ -187,7 +187,7 @@ def user_stats(df):
 
 def display_data(df):
     current_index=0;
-    print(len(df.index))
+
     display_data = input('\nWould you like to display raw data ? Enter yes or no.\n') 
     if display_data.lower() == 'yes':
         while True:
